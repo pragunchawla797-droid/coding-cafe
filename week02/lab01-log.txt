@@ -1,0 +1,16 @@
+  371  which pip
+  372  which pip3
+  373  which ls
+  374  pyton3
+  375  cd ~/coding-cafe\npython3 -m venv .venv\nls
+  376  ls -a
+  377  source .venv/bin/activate
+  378  which python3
+  379  pip list
+  380  pip install requests
+  381  pip list
+  382  deactivate\nwhich python3
+  383  man ls
+  384  man man
+  385  cd codpython3
+  386  cd ~/coding-cafe
