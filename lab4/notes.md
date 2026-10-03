@@ -23,3 +23,18 @@ Git outputs the branch name, the short commit hash, the commit message, and a ch
 
 ### 8. Name and purpose of the first seven characters of a commit hash
 The first seven characters are called the short SHA-1 hash (or short commit hash). They serve as a unique identifier for that specific commit snapshot, allowing you to view, reference, or roll back to that state later.
+
+### 10. Special purpose and placement of README.md
+A root-level `README.md` is a universally recognized standard across the software development community. Hosting services like GitHub automatically detect this specific file and render it as the home page documentation for anyone visiting the repository.
+
+### 11. How `gh auth login` eliminates future password prompts
+`gh auth login` runs an OAuth authentication process with GitHub and securely stores a personal access token in your operating system's credential helper. Future Git operations use this token automatically over HTTPS instead of asking for your account password.
+
+### 12. File rendered on GitHub's front page and the reason why
+The `README.md` file is rendered on the front page. By convention, GitHub detects a Markdown file named README at the root of a repository and automatically formats and displays it as the project homepage.
+
+### 13. Effect of `git push` on local history
+Running `git push` does not alter your local commit history or change any commit hashes. It copies your local commits to the remote GitHub server and updates the remote tracking branch pointer (`origin/main`).
+
+### 14. Distinction between a private repository vs. no repository on GitHub
+A private repository exists as an off-site backup on GitHub's cloud servers, accessible securely to you and invited collaborators like your TAs. If a repository does not exist on GitHub, all code and version history exist solely on your local machine with no cloud backup or collaboration access.
